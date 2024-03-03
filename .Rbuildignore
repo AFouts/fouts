@@ -1,0 +1,4 @@
+^renv$
+^renv\.lock$
+^fouts\.Rproj$
+^\.Rproj\.user$
