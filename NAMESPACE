@@ -3,3 +3,7 @@
 export(estimate_beta)
 export(my_plottheme)
 export(myfunc)
+import(ggplot2)
+import(ggthemes)
+import(matlib)
+import(usethis)
