@@ -9,7 +9,6 @@
 #' @examples
 #' estimate_beta(y, X)
 estimate_beta <- function(y, X) {
-  devtools::add_package("matlib") 
   usethis::use_package("matlib")
   beta_hat <- inv(t(X)%*%X)%*%t(X)%*%y
   return(beta_hat)
