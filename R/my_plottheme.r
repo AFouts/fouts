@@ -5,6 +5,10 @@
 #' @return A customized plot.
 #' @export
 #'
+#' @import usethis
+#' @import ggplot2
+#' @import ggthemes
+#' 
 #' @examples
 #' my_plottheme(plot)
 my_plottheme <- function(plot_in) {
